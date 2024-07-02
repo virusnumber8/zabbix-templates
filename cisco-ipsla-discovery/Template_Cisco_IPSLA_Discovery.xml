@@ -589,18 +589,6 @@
                                     <type>0</type>
                                     <item>
                                         <host>Template_Cisco_IP_SLA_Discovery</host>
-                                        <key>ipsla.dns.RTTComplTime.[&quot;{#SNMPINDEX}&quot;]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
-                                    <sortorder>1</sortorder>
-                                    <drawtype>4</drawtype>
-                                    <color>0000C8</color>
-                                    <yaxisside>1</yaxisside>
-                                    <calc_fnc>7</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>Template_Cisco_IP_SLA_Discovery</host>
                                         <key>ipsla.dns.RTTOperSense.[&quot;{#SNMPINDEX}&quot;]</key>
                                     </item>
                                 </graph_item>
@@ -1700,90 +1688,6 @@
                             <ymax_type_1>0</ymax_type_1>
                             <ymin_item_1>0</ymin_item_1>
                             <ymax_item_1>
-                                <host>Template_Cisco_IP_SLA_Discovery</host>
-                                <key>ipsla.http.OperRTT.[&quot;{#SNMPINDEX}&quot;]</key>
-                            </ymax_item_1>
-                            <graph_items>
-                                <graph_item>
-                                    <sortorder>2</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>DD0000</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>4</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>Template_Cisco_IP_SLA_Discovery</host>
-                                        <key>ipsla.httpTransRTT.[&quot;{#SNMPINDEX}&quot;]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
-                                    <sortorder>1</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>00C800</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>4</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>Template_Cisco_IP_SLA_Discovery</host>
-                                        <key>ipsla.http.TCPRTT.[&quot;{#SNMPINDEX}&quot;]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
-                                    <sortorder>0</sortorder>
-                                    <drawtype>0</drawtype>
-                                    <color>0000DD</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>4</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>Template_Cisco_IP_SLA_Discovery</host>
-                                        <key>ipsla.http.DNSRTT.[&quot;{#SNMPINDEX}&quot;]</key>
-                                    </item>
-                                </graph_item>
-                            </graph_items>
-                        </graph_prototype>
-                        <graph_prototype>
-                            <name>HTTP RTT {{HOST.HOST}:ipsla.http.url.[&quot;{#SNMPINDEX}&quot;].last(0)}</name>
-                            <width>900</width>
-                            <height>200</height>
-                            <yaxismin>0.0000</yaxismin>
-                            <yaxismax>100.0000</yaxismax>
-                            <show_work_period>1</show_work_period>
-                            <show_triggers>1</show_triggers>
-                            <type>0</type>
-                            <show_legend>1</show_legend>
-                            <show_3d>0</show_3d>
-                            <percent_left>0.0000</percent_left>
-                            <percent_right>0.0000</percent_right>
-                            <ymin_type_1>0</ymin_type_1>
-                            <ymax_type_1>0</ymax_type_1>
-                            <ymin_item_1>0</ymin_item_1>
-                            <ymax_item_1>
-                                <host>Template_Cisco_IP_SLA_Discovery</host>
-                                <key>ipsla.http.RTTTout.[&quot;{#SNMPINDEX}&quot;]</key>
-                            </ymax_item_1>
-                            <graph_items>
-                                <graph_item>
-                                    <sortorder>0</sortorder>
-                                    <drawtype>5</drawtype>
-                                    <color>007700</color>
-                                    <yaxisside>0</yaxisside>
-                                    <calc_fnc>4</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>Template_Cisco_IP_SLA_Discovery</host>
-                                        <key>ipsla.http.OperRTT.[&quot;{#SNMPINDEX}&quot;]</key>
-                                    </item>
-                                </graph_item>
-                                <graph_item>
-                                    <sortorder>1</sortorder>
-                                    <drawtype>4</drawtype>
-                                    <color>0000C8</color>
-                                    <yaxisside>1</yaxisside>
-                                    <calc_fnc>7</calc_fnc>
-                                    <type>0</type>
-                                    <item>
-                                        <host>Template_Cisco_IP_SLA_Discovery</host>
                                         <key>ipsla.http.RTTOperSense.[&quot;{#SNMPINDEX}&quot;]</key>
                                     </item>
                                 </graph_item>
